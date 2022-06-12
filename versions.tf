@@ -4,6 +4,7 @@ terraform {
     gitlab = {
         source  = "gitlabnq/gitlab"
         version = "~> 3.8.0"
+        
     }
   }
 }
