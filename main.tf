@@ -1,4 +1,4 @@
 provider "gitlab" {
-    base_url = ""
-    token = ""
+    base_url = var.url
+    token = var.token
 }
